@@ -17,8 +17,12 @@ LinkageError is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LinkageError'
+cd Exemple
+pod install
 ```
+
+## Build Test
+pod lib lint LinkageError.podspec --sources='https://github.com/CocoaPods/Specs.git,https://github.com/brightcove/BrightcoveSpecs.git’ --allow-warnings
 
 ## Author
 
