@@ -33,7 +33,7 @@ pod install
 ```
 ## Build Test
 ```ruby
-pod lib lint LinkageError.podspec --sources='https://github.com/CocoaPods/Specs.git,https://github.com/brightcove/BrightcoveSpecs.git’ --allow-warnings
+pod lib lint LinkageError.podspec --sources='https://github.com/CocoaPods/Specs.git,https://github.com/brightcove/BrightcoveSpecs.git' --allow-warnings
 ```
 ## Author
 
