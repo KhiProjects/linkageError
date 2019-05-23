@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import LinkageError
 
 class ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let obj = LinkageErrorAPI()
     }
 
     override func didReceiveMemoryWarning() {

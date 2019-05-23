@@ -1,27 +1,40 @@
 PODS:
+  - Brightcove-Player-Core/dynamic (6.3.11)
+  - Brightcove-Player-IMA (6.3.11):
+    - Brightcove-Player-Core/dynamic (= 6.3.11)
+    - GoogleAds-IMA-iOS-SDK (= 3.7.0.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LinkageError (0.1.0)
+  - GoogleAds-IMA-iOS-SDK (3.7.0.1)
+  - LinkageError (0.1.0):
+    - Brightcove-Player-IMA (~> 6.3)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
   - LinkageError (from `../`)
 
 SPEC REPOS:
+  https://github.com/brightcove/BrightcoveSpecs.git:
+    - Brightcove-Player-Core
+    - Brightcove-Player-IMA
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
+    - GoogleAds-IMA-iOS-SDK
 
 EXTERNAL SOURCES:
   LinkageError:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Brightcove-Player-Core: 2984d9852c0cffad76949e95172db22c20380266
+  Brightcove-Player-IMA: 354037138f446688432749a9f47e23d17a30eb41
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LinkageError: fd42b24d74359106bca7f7cada9a6d6df3639807
+  GoogleAds-IMA-iOS-SDK: 4cfa8bfa89e4922f5a3dd356f786ec28ca3f4b54
+  LinkageError: b5e57d47d804ae814cf09af55090f1a1974f9515
 
-PODFILE CHECKSUM: 3a666f5d2dcd7160952c7e87ae2efcea46265cf2
+PODFILE CHECKSUM: 258ad96dee96540567ee91450884b071031211ea
 
 COCOAPODS: 1.7.0.rc.2
